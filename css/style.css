@@ -4,7 +4,12 @@ body {
 }
 
 #main-header {
+    background: cornflowerblue;
+    align-self: auto;
     align-self: baseline;
+    margin: auto;
+    text-align: center;
+
 }
 
 #Contact {
@@ -19,16 +24,46 @@ p {
 
 h1 {
     color: black;
+    text-align: center;
 }
 
 h2 {
     color: black;
+    text-align: center;
 }
 
 h3 {
     color: black;
+    text-align: center;
 }
 
 h4 {
     color: black;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #42d9f4;
+}
+
+li {
+    text-align: center;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
 }
